@@ -16,6 +16,18 @@ elsif not(ismale)
 else puts("error")
 end
 #and or operators available too
+#for loop
+list = ['nadeem', 'karim', 'john', 'peter', 'calvin']
+index = 0
+for name in list
+  if list[index] == 'peter' 
+    puts(true)
+    index += 1
+  else
+    puts(false)
+    index += 1
+  end
+end
 
 #Recursive comparative function
 #to compare two numbers
